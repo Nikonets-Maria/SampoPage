@@ -1,0 +1,40 @@
+
+* {
+    font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery', 'URW Chancery L', cursive;
+    font-size: medium;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+body{
+    background-color: rgba(159, 236, 255, 0.696);
+}
+
+.grid-container {
+    border: solid 2px #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+    text-align:center;
+    font-size: 1.1em;
+    color: rgba(5, 19, 80, 0.838);
+}
+img {
+    max-width: 80%;
+    height: auto;
+}
+.color1 {background-color: #7867dbaf;}
+.color2 {background-color: #fff349ac;}
+.color3 {background-color: #A62E5C;}
+.color4 {background-color: #d785d4;}
+
+.hiPicher{
+    border-radius: 50%;
+}
+
+.agrid{
+    color: #10a5a3a6;
+    font-size: xx-small;
+}
